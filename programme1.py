@@ -80,7 +80,7 @@ if len(name) > 0:
 else:
    print("Entrez un nom")
    
-'''
+
 
 print()
 # 2h 29 mn  
@@ -137,7 +137,7 @@ print("Separer et joindre")
 Split = "1, 2, 3, 4, 5".split(", ")
 print("Split de 1, 2, 3, 4, 5 => ", Split)
 
-#joindre
+#joindre()
 Join = "-".join("1, 2, 3, 4, 5".split(", "))
 print("Join de '-'.join('1, 2, 3, 4, 5'.split(", ")) => ", Join)
 
@@ -158,11 +158,11 @@ print()
     # Les methodes " is "
 print("Les methodes is")
 
-#islower
+#islower()
 is_lower = "bonjour".islower()
 print("islower de bonjour => ", is_lower)
 
-#isupper
+#isupper()
 is_upper = "BonjOuR".isupper()
 print("isupper de BonjOuR => ", is_upper)
 is_upper_1 = "BONJOUR".isupper()
@@ -269,6 +269,54 @@ name = "Mohamed"
 age = 27
 phrase_3 = "Mon nom est {0}, je suis agé de {1} ans.".format(name, age)
 print(phrase_3)
+'''
+#3h 30mn
+print()
+
+#Les structures conditionnelles
+print("LES STRUCTURES CONDITIONNELLES")
+# Les if else
+# cas1
+print("CAS-1")
+verifie_number = int(input("Entrez un entier : "))
+
+if verifie_number > 18:
+    print("L'entier entré est superieur à 18. \nMercii !!")
+elif verifie_number == 18:
+    print("L'entier entre est égal à 18.")
+else:
+    print("L'entier entré est inférieur à 18.")
+    
+# Cas 2
+print("CAS-2")
+
+users_liste = ["mohamed", "sarifou", "diallo"]
+
+user_name = input("Entrez votre nom : ").lower()
+
+if user_name in users_liste:
+    print("Vous êtes connecté en tant que ", user_name)
+else:
+    print("Vous n'etes pas dans la liste des utilisateurs. Merci de vous inscrire")
+
+# Cas 3
+print("CAS-3")
+
+password = input("Entrez un mot de passe : ")
+
+if len(password) >= 8:
+    print("Mot de passe valide !")
+else:
+    print("Le mot de passe doit contenir au moins 8 caracteres.")
+    
+# Les operateurs logiques (or; and et not)
+
+if user_name in users_liste and len(password) > 8:
+    print(f"Bonjour {user_name}, vous avez accés à notre site !")
+else:
+    print("Accès refusé, veuillez vérifier votre identité ou mot de passe")
+    
+        
 
 
 print()
