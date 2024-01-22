@@ -57,7 +57,7 @@ chaine_carac = "Ceci est une chaine de caractere"
 liste_chaine = chaine_carac.split()
 print("\nliste des charachteres => ", liste_chaine)
 
-# Les operateurs d'apprtenance ( in, not in )
+# Les operateurs d'appartenance ( in, not in )
 users_liste = ["mohamed", "sarifou", "diallo"]
 
 user_name = input("\nEntrez votre nom : ").lower()

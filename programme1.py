@@ -271,6 +271,7 @@ phrase_3 = "Mon nom est {0}, je suis agé de {1} ans.".format(name, age)
 print(phrase_3)
 '''
 #3h 30mn
+
 print()
 
 #Les structures conditionnelles
@@ -317,7 +318,5 @@ else:
     print("Accès refusé, veuillez vérifier votre identité ou mot de passe")
     
         
-
-
 print()
   
